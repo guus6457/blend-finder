@@ -29,8 +29,8 @@ def copy_blend_files(download_folder, destination_folder):
         print(f"Copied {blend_file} to {destination_folder}")
 
 # Set your download folder path and destination folder path
-download_folder = r"C:\Users\Guusv\Downloads"
-destination_folder = os.path.join(download_folder, "blend")
+download_folder = "/path/to/your/download/folder"
+destination_folder = "/path/to/your/destination/folder"
 
 # Call the function to copy .blend files
 copy_blend_files(download_folder, destination_folder)
